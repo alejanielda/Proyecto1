@@ -1,0 +1,79 @@
+<?php
+    include "ctrlsession.php";
+?>
+<?php
+    include "cookie.php";
+    
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Tienda Web</title>
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script type="text/javascript" src="funcionesingprod.js"></script>
+</head>
+<body>
+
+	<div id="head">
+		<h1>T.Web</h1>
+	</div>
+	
+	<div id="menu">
+		<a href="index.php">Inicio</a>
+		<a href="usuarioslog.php">Usuarios/Registrar</a>
+		<a href="addprod.php">Agregar Producto</a>
+		<a href="lstprod.php">Productos</a>
+		<a href="modprod.php">Modificar Productos</a>
+		<a href="delprod.php">Eliminar Productos</a>
+		<a href="addmarca.php">Agregar Marca</a>
+		<a href="lstmarca.php">Marcas</a>
+		<a href="modmarcas.php">Modificar Marca</a>
+		<a href="addtie.php">Agregar Tienda</a>
+		<a href="lsttienda.php">Tienda</a>
+		<a href="modtie.php">Modificar Tienda</a>
+		<a href="addcat.php">Agregar Categoria</a>
+		<a href="lstcat.php">Categorias</a>
+		<a href="modcat.php">Modificar Categoria</a>
+		<a href="salir.php">Salir</a>
+	</div>
+	
+
+	<div id="tagre">
+		
+		<fieldset id="agprod">
+		<br>
+		
+		<legend>Listar</legend>
+		<form id="dataFPR" action ="tienda.php" method="POST">
+			<table>
+				
+			
+            <tr>
+                <td>Tienda:</td>
+                <td>
+                <select id="dataTIE" type="text" name="TIE" title="Seleccione Tienda" />
+                    <option value"">-- Seleccionar Tienda--</option> 
+                             <option value="tiendamia">tiendamia</option>
+                             <option value="amazon">amazon</option>
+                             <option value="ebay">ebay</option>
+                             
+                    </select>               
+                </td>
+            
+         <tr>
+            <td colspan="2">
+                <input type="submit" value="Listar" > 
+                <input type="reset" value="Cancelar" >
+			</td>
+         </tr>
+		
+		</table>
+	
+	   </form>
+    
+	</fieldset>
+ 
+</div>

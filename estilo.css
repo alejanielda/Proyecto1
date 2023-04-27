@@ -1,0 +1,168 @@
+div#head {
+font-family: arial;
+font-size: 24px;
+color: blueviolet;
+border-bottom-style: solid;
+border-block-width: 2px;
+border-bottom-color: blueviolet; 
+letter-spacing: 3px;
+
+}
+div#menu {
+	color: black;
+	margin-top: 20px;
+	background-color: #b093e8;
+
+
+}
+
+div#tagre {
+	width: 90%;
+	margin: 50px auto;
+
+}
+
+a:link {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: green;
+	padding: 5px;
+
+}
+a:visited {
+	font-family: arial;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 10px;
+	text-decoration: none;
+	color: rgb(0, 0, 0);
+	padding: 5px;
+	border-radius: 5px ;
+}
+a:hover {
+	font-family: verdana;
+	font-size: 14px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	margin-right: 10px;
+	text-decoration: underline;
+	color: blue;
+	background-color: black;
+	padding: 5px;
+}
+div#contenido {
+	width: 90%;
+	margin: 50px auto;
+	position: absolute;
+	
+	
+	
+}
+fieldset#dsc {
+	font-family: calibri;
+	font-size: 18px;
+	font-style: italic;
+	text-align: justify;
+	padding: 20px;
+}
+
+fieldset#frm {
+	width: 340px;
+	font-family: calibri;
+	font-size: 18px;
+	font-style: italic;
+	text-align: justify;
+	padding: 20px;
+}
+
+fieldset#tabprod{
+	text-align: left;
+}
+fieldset#agprod{
+	width: 340px;
+}
+
+legend {
+	background-color: black;
+	color: white;
+	padding: 5px;
+	font-weight: bold;
+	letter-spacing: 3px;
+	font-family: arial;
+	font-size: 14px;
+	font-style: normal;
+
+}
+td {
+	text-align: right;
+}
+
+table#lst{
+	width: 100%;
+	padding: 10px;
+	font-family: arial;
+	font-size: 16px;
+}
+table#lst th {
+	background-color: black;
+	color:aliceblue;
+
+} 
+table#lst td {
+	text-align: left;
+	
+}
+.filaIMP{
+	background-color: rgb(110, 101, 101);
+}
+.filaPAR{
+	background-color: rgb(201, 179, 179);
+}
+
+.ico {
+	width: 20px;
+	height: 20px;
+}
+
+a#hide {
+	display: none;
+}
+p#pp{
+	color: black;
+}
+
+body {
+
+	background-color: #ffffff;
+	opacity: 1;
+	background-image:  radial-gradient(#b093e8 0.75px, transparent 0.75px), radial-gradient(#b093e8 0.75px, #ffffff 0.75px);
+	background-size: 30px 30px;
+	background-position: 0 0,15px 15px;
+	
+	
+}
+
+div#cntLOG{
+	background-color: rgb(224, 220, 220);
+	margin: auto;
+	width: 90%;
+	max-width: 400px;
+	padding: 4em 3em;
+	border-radius: 10px;
+	box-shadow: 0 5px 10px -5px rgb(0 0 0 / 30%);
+}
+
+.LOG {
+
+	font-size: 1rem;
+	background-color: none;
+	padding: .2em .2em;
+	border-bottom: 1px;
+	
+	
+}
